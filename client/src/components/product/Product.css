@@ -1,0 +1,38 @@
+th, td {
+    padding: 10px;
+    word-wrap: break-word;
+    max-width: 1px;
+}
+
+.product{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    min-height: 340px;
+    transition: .5s ease-in-out;
+}
+.product:hover{
+    transform: scale(1.05);
+}
+
+.product-title{
+    color: #333333b0;
+}
+.product-tile{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.features{
+    background-color: #f5f5f5;
+    padding: 1rem;
+    padding-top: 1.5rem;
+}
+
+.features h6 {
+    font-weight: bold;
+}
+
+.features .item{
+    display: flex;
+    justify-content: space-around;
+}
